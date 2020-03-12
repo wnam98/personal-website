@@ -25,3 +25,13 @@ body
 {
     color: #FFF;
 }
+
+#About span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#About hr
+{
+    border-width: 3px; 
+}
