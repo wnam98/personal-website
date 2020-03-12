@@ -12,7 +12,7 @@
     <script src = "js/proper.js"></script>
     <title>Portfolio Website in BootStrap</title>
 </head>
-<body>
+<body data-spy = "scroll" data-target = ".navbar">
    <!-- NavBar-->
     <div id = "Header">
         <nav class = "navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
@@ -20,7 +20,7 @@
                 <button class = "navbar-toggler" data-toggle = "collapse" data-target = "#Navbar">
                     <span class = "navbar-toggler-icon"></span>
                 </button>
-                <a href = "#" class = "navbar-brand"><h3>Walter Nam</h3></a>
+                <a href = "#" class = "navbar-brand"><h3>Portfolio</h3></a>
                 <div class = "collapse navbar-collapse" id = "Navbar">
                         <ul class = "navbar-nav ml-auto">
                             <li class = "nav-item"><a href="#" class = "nav-link">About Me</a></li>
@@ -43,12 +43,45 @@
                 <div class = "col">
                     <div id = "AboutData">
                         <div class = "card bg-white">
-                            <div class = "card-title">
+                            <div class = "card-title my-5">
                                 <div class = "media">
                                     <img src="img/person2.jpg" width = "250" height = "250" class = "img-fluid rounded-top mx-5">
                                     <div class = "media-body">
-                                        <h3>I'm Walter Nam</h3>
+                                        <h3 class = "display-4 ml-5">Walter Nam</h3>
+                                        <p class = "text-muted ml-5">Computer Science Student & Full Stack/ML Enthusiast</p>
+                                       <div class = "container">
+                                            <table class = "table table-responsive ml-5">
+                                                <tr>
+                                                    <td class = "text-muted">Age</td>
+                                                    <td>:</td>
+                                                    <td>21</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class = "text-muted">Email</td>
+                                                    <td>:</td>
+                                                    <td>wkn2@case.edu</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class = "text-muted">Website</td>
+                                                    <td>:</td>
+                                                    <td>https://www.linkedin.com/in/wnam98/</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class = "text-muted">Phone</td>
+                                                    <td>:</td>
+                                                    <td>+1 (617) 780-4766</td>
+                                                </tr>
+
+                                            </table>
+                                       </div> 
                                     </div>
+                                </div>
+                                <div class = "card-footer bg-danger">
+                                    <a href="#"><i class = "fa-fa-facebook fa-2x mx-3"></i></a>
+                                    <a href="#"><i class = "fa-fa-youtube fa-2x mx-3"></i></a>
+                                    <a href="#"><i class = "fa-fa-github fa-2x mx-3"></i></a>
+                                    <a href="#"><i class = "fa-fa-pinterest fa-2x mx-3"></i></a>
+                                    <a href="#"><i class = "fa-fa-linkedin fa-2x mx-3"></i></a>
                                 </div>
                             </div>
                         </div>

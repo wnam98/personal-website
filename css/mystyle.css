@@ -15,3 +15,13 @@ body
     background-repeat: no-repeat;
     min-height: 500px;
 }
+
+#About
+{
+    margin-top: -200px;
+}
+
+#About .fa
+{
+    color: #FFF;
+}
