@@ -57,3 +57,14 @@ body
     border-width: 2px;
     margin-top: 06px;
 }
+
+#Projects span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#Projects hr
+{
+    border-width: 2px;
+    margin-top: 06px;
+}
