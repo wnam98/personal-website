@@ -1,2 +1,2 @@
 # personal-website
-Front End development project to familiarize myself with basic HTML/CSS and Bootstrap v4. 
+This is my personal website. Not much more to say.
