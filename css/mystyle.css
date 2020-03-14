@@ -68,3 +68,19 @@ body
     border-width: 2px;
     margin-top: 06px;
 }
+
+#Projects .card
+{
+    border-top: 03px solid #d63031;
+}
+
+#Contact span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#Contact hr
+{
+    border-width: 2px;
+    margin-top: 06px;
+}
