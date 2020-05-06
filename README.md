@@ -1,2 +1,2 @@
 # personal-website
-This is my personal website. Kinda basic, but I'm still learning!
+Portfolio website with a little bio and a summary of my programming skills. 
